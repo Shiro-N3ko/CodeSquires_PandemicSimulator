@@ -37,27 +37,27 @@ public SimulationRunner(){
 	this.setFocusable(true);
 
 	for (int i = 0; i < amountOfPeopleToCreate; i++) {
-	    for (int ii = 0; i < amountOfBasicToCreate; ii++) {
+	    for (int ii = 0; ii < amountOfBasicToCreate; ii++) {
 	    simulationContainer.add(new Person(1));
 	    SimulationRunner.amountOfBasic++;
 	    }//end for
-	    for (int ii = 0; i < amountOneShotToCreate; ii++) {
+	    for (int ii = 0; ii < amountOneShotToCreate; ii++) {
 	    simulationContainer.add(new Person(2));
 	    SimulationRunner.amountOneShot++;
 	    }//end for
-	    for (int ii = 0; i < amountTwoShotToCreate; ii++) {
+	    for (int ii = 0; ii < amountTwoShotToCreate; ii++) {
 	    simulationContainer.add(new Person(3));
 	    SimulationRunner.amountTwoShot++;
 	    }//end for
-	    for (int ii = 0; i < amountThreeShotToCreate; ii++) {
+	    for (int ii = 0; ii < amountThreeShotToCreate; ii++) {
 	    simulationContainer.add(new Person(4));
 	    SimulationRunner.amountThreeShot++;
 	    }//end for
-	    for (int ii = 0; i < amountRecoveredToCreate; ii++) {
+	    for (int ii = 0; ii < amountRecoveredToCreate; ii++) {
 	    simulationContainer.add(new Person(5));
 	    SimulationRunner.reinfectedCount++;
 	    }//end for
-	    for (int ii = 0; i < amountOfInfectedToCreate; ii++) {
+	    for (int ii = 0; ii < amountOfInfectedToCreate; ii++) {
 	    simulationContainer.add(new Person(true));
 	    SimulationRunner.amountOfInfected++;
 	    }//end for
